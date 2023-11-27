@@ -1,0 +1,24 @@
+<h2>How to Add our projects to Git Repository</h2>
+<p>
+    To add your project to the repository, you need to follow these steps:
+    <ul>
+        <li>Step 1: open Terminal and go to your project folder by-> cd <foldername>command</li>
+        <li>Step 2: 
+            <ol>
+                <li>Initialize git in that directory -> git init command</li>
+                <li>use cmd: git add . (to stage all the files in the folder)</li>
+                <li>commit changes with a message -> git commit -m "message" command</li>
+                <li> don't Push it to remote repo directly by -> git push origin master command</li>
+                <li>Follow the Steps below</li>
+            </ol>
+        </li>
+        <li>Step 3: Go to Github and create new repository(dont tick readme) and copy the link of repository </li>
+        <li>Step 4: use cmd:git remote add origin <-link->(git remote add means we are adding new repo in remote git with name origin)</li>
+        <li>Step 5: use cmd:git remote -v (to verify remote link)</li>
+        <li>Step 6: use cmd:git branch (to check branch name)</li>
+        <li>Step 7: use cmd:git branch -M main(to rename branch name as main)
+        <li>Step 8: use cmd:git push origin main</li>
+        <li>Note :- we can include flag variable -u in between push and origin(eg:-gigt push -u origin main).so next time when you want to push files we can directly type cmd:- git push</li>
+
+    </ul>
+</p>
